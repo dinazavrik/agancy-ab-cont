@@ -1,0 +1,81 @@
+.contacts{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  &__form{
+    &__input{
+      width: 100%;
+      height: 49px;
+      padding: 0 19px;
+      color: #cccccc;
+      font-family: $title-font-family;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: uppercase;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: #fefcf9;
+    }
+    &__textarea{
+      width: 100%;
+      height: 200px;
+      padding: 21px 21px;
+      color: #cccccc;
+      font-family: $title-font-family;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: uppercase;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: #fefcf9;
+    }
+    &__btn{
+      width: 165px;
+      height: 50px;
+      margin-bottom: 100px;
+      background-color: #7beec7;
+      border: none;
+      color: $white-color;
+      font-family: $title-font-family;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: uppercase;
+    }
+    &__btn:hover{
+      color: #23527c;
+    }
+  }
+  &__title{
+    color: $color_2;
+    font-family: $title-font-family;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+  &__sub-title{
+    color: #999999;
+    font-family: $main-font-family;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  &__info{
+    color: #999999;
+    font-family: $main-font-family;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+  }
+  &__social{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  &__item{
+    margin-right: 20px;
+  }
+}

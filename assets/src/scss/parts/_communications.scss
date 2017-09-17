@@ -1,0 +1,75 @@
+.communications{
+  background-color: #7beec7;
+  &__form{
+    background-color: $white-color;
+    padding: 20px 25px;
+    &__title{
+      color: #60606e;
+      font-family: $title-font-family;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      text-transform: uppercase;
+    }
+    &__sub-title{
+      color: #999999;
+      font-family: $main-font-family;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    &__input{
+      width: 70%;
+      height: 50px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+      padding: 0 19px;
+      color: #cdcdcd;
+      font-family: $title-font-family;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: uppercase;
+    }
+    &__btn{
+      width: 29%;
+      height: 50px;
+      background-color: #7beec7;
+      border: none;
+      color: $white-color;
+      font-family: $title-font-family;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 48px;
+      text-transform: uppercase;
+    }
+    &__btn:hover{
+      color: #23527c;
+    }
+  }
+  &__title{
+    color: $white-color;
+    font-family: $title-font-family;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  &__btn{
+    width: 165px;
+    height: 49px;
+    border: none;
+    background-color: $white-color;
+    color: #7beec7;
+    font-family: $title-font-family;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  &__btn:hover{
+    color: #23527c;
+  }
+  &__row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

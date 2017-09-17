@@ -1,0 +1,57 @@
+.header {
+  background-color: $color_2;
+  @include bg-img('img/layer-4.png');
+  &__container {
+    min-height: 500px;
+  }
+  &__navigation {
+    padding-top: 42px;
+  }
+  &__menu-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    color: $color_2;
+    font-family: $title-font-family;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+  &__logo{
+    color: $color_2;
+    font-family: $title-font-family;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+  &__sub-title{
+    font-family: $title-font-family;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__sub-title-link{
+    color: $color_2;
+  }
+  &__delimiter{
+    color: $color_2;
+    font-family: $title-font-family;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+  }
+}
